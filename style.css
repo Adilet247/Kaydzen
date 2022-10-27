@@ -2,22 +2,27 @@
     margin: 0;
     padding: 0;
 }
+
 .container {
     margin: 0 auto;
     width: 90%;
 }
+
 #header {
     background: #1E2024;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
 }
+
 .menu {
     width: 40%;
     justify-content: space-between;
     display: flex;
 }
+
 a {
     align-items: center;
     display: flex;
@@ -27,14 +32,17 @@ a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+
 .klb {
     color: #FFFFFF;
 }
+
 .google {
     margin-right: 20px;
     display: flex;
     align-items: center;
 }
+
 .btn {
     padding: 7px 15px;
     color: #FFFFFF;
@@ -45,21 +53,25 @@ a {
     box-shadow: 0px 8px 20px rgba(26, 92, 255, 0.2);
     border-radius: 15px;
 }
+
 .gglBtn {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .rec {
     display: flex;
     width: 100%;
 }
+
 .rec2 {
     position: absolute;
     width: 100%;
     top: 50px;
 }
-.home h1{
+
+.home h1 {
     position: absolute;
     width: 131px;
     height: 22px;
@@ -68,6 +80,41 @@ a {
     display: flex;
     text-align: left;
 }
+
 .btnHome {
 
+}
+#choice{
+    background: #1E2023;
+}
+.choice h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+.choice p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9099A3;
+
+}
+
+
+
+
+
+
+#question{
+    background:  #1E2023;
+}
+.question h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+.question svg {
+    margin: 10px 50px;
 }
