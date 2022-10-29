@@ -1,0 +1,133 @@
+@import "media.css";
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+#header {
+    background: #1E2024;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.menu {
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+}
+a {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    color: #9099A3;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.klb {
+    color: #FFFFFF;
+}
+.google {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.btn {
+    padding: 7px 15px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: #1A5CFF;
+    box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+    border-radius: 15px;
+}
+.gglBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home {
+    display: flex;
+    justify-items: revert;
+    justify-content: right;
+    padding-top: 15px;
+}
+.Tittle {
+    padding-top: 6px;
+    margin-right: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    z-index: 2;
+    color: #FFFFFF;
+}
+.homeSvg {
+    z-index: 2;
+}
+.Txt1 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 20px;
+    z-index: 2;
+    color: #FFFFFF;
+}
+.txt2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 79px;
+    position: absolute;
+    z-index: 2;
+    color: #FFFFFF;
+}
+.x2Btn {
+    display: flex;
+    padding-top: 170px;
+  }
+.btn1 {
+    padding: 10px 20px;
+    background: #1A5CFF;
+    box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+    border-radius: 15px;
+    border: none;
+    z-index: 2;
+    color: #FFFFFF;
+}
+.btn2 {
+    box-sizing: border-box;
+    border: 1px solid #9099A3;
+    border-radius: 15px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    z-index: 2;
+    text-transform: capitalize;
+}
+.fon {
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    top: 67px;
+    background: linear-gradient(0deg, rgba(44, 62, 80, 0.5), rgba(44, 62, 80, 0.5));
+}
+.fon2 {
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    top: 67px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 81.2%, #1E2125 100%);
+}
+#section2 {
+    background: #1E2024;
+}
+.Mrl {
+  padding-top: 360px;
+}
